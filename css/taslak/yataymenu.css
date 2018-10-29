@@ -1,0 +1,40 @@
+.ymenu
+{
+
+}
+.ymenu ul
+{
+	list-style:none;
+	margin:0;
+	align-items: center;
+
+}
+.ymenu ul li
+{
+	position:relative;
+	float:left;
+	transform: skewX(-20deg);
+
+}
+.ymenu ul li a
+{
+	margin:auto;
+	text-decoration:none;
+	display:inline-block;
+	padding:14px;
+	padding-right:50px;
+	padding-left:50px;
+	color:#f5f6fa;
+	font:bold 16px tahoma;
+	text-transform: uppercase;
+	text-decoration: none;
+	background:#4cd137;
+	opacity: 0.6;
+}
+.ymenu ul li a:hover
+{
+	transition:0.5s;
+	color:#f5f6fa;
+	background:#EA2027;
+
+}
